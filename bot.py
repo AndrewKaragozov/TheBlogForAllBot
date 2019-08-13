@@ -1,3 +1,4 @@
+#код написан Андреем Карагозовым. Копирование без указания автора запрещено.
 while(1 == 1):
   for event in longpoll.listen():
     if(event.type == VkEventType.MESSAGE_NEW):
@@ -164,6 +165,4 @@ while(1 == 1):
             text='Недостаточно прав!'
             print(text)
             send_message(message=text)
-      elif(event.from_chat and not event.from_me):
-        message = input('Введите сообщение в ответ: ')
-send_chat(message=message)
+#код написан Андреем Карагозовым. Копирование без указания автора запрещено.
